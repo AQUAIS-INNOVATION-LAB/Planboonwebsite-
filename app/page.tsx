@@ -5,8 +5,8 @@ export default function Home() {
       {/* Navigation */}
       <header className="sticky top-0 z-50 border-b border-white/10 bg-black">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="#" className="text-2xl font-extrabold tracking-tight text-[#a6ff3b]">
-            Planboon<span className="text-white">.</span>
+          <a href="#" className="text-2xl font-extrabold tracking-tight text-[#65ad20]">
+            Planboon<span className="text-white"></span>
           </a>
 
           <div className="flex items-center gap-4 text-sm font-medium sm:gap-8">
@@ -15,6 +15,12 @@ export default function Home() {
             </a>
             <a href="#mission" className="hidden text-gray-300 transition hover:text-[#a6ff3b] sm:block">
               Our Mission
+            </a>
+            <a
+              href="/privacypolicy"
+              className="hidden text-gray-300 transition hover:text-[#a6ff3b] sm:block"
+            >
+              Privacy
             </a>
             <a
               href="/contact"
@@ -52,7 +58,7 @@ export default function Home() {
             <div className="mt-9 flex flex-wrap items-center gap-5">
               <a
                 href="#about"
-                className="inline-flex items-center gap-2 rounded-full bg-[#a6ff3b] px-7 py-4 font-bold text-black transition hover:-translate-y-0.5 hover:bg-[#8ee526]"
+                className="inline-flex items-center gap-2 rounded-full bg-[#65ad20] px-7 py-4 font-bold text-black transition hover:-translate-y-0.5 hover:bg-[#8ee526]"
               >
                 Get to know us <span aria-hidden="true">→</span>
               </a>
@@ -79,12 +85,12 @@ export default function Home() {
                 <span className="text-sm font-semibold tracking-wide text-gray-300">
                   THE PLANBOON FEELING
                 </span>
-                <span className="rounded-full bg-[#a6ff3b] px-3 py-1 text-xs font-bold text-black">
+                <span className="rounded-full bg-[#65ad20] px-3 py-1 text-xs font-bold text-black">
                   Celebrate
                 </span>
               </div>
 
-              <div className="mt-10 flex aspect-[5/4] flex-col items-center justify-center rounded-3xl bg-[#a6ff3b] px-5 text-center text-black">
+              <div className="mt-10 flex aspect-[5/4] flex-col items-center justify-center rounded-3xl bg-[#65ad20] px-5 text-center text-black">
                 <span className="text-7xl sm:text-8xl" role="img" aria-label="Celebration">
                   🎉
                 </span>
